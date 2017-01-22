@@ -17,7 +17,7 @@ public class OneThread implements Runnable {
 
 	@Override
 	public void run() {
-		int i = 8;
+		int i = 89;
 		while (!exit && i >= 0) {
 			synchronized (lock) {
 				try {
