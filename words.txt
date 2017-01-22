@@ -1,0 +1,11 @@
+{"animal","lion","panda","tiger","camel","goat","sheep","zebra","cow","bull","bear","wolf","cow","deer","fox","horse","pig","dog","monkey"," bat","cat","rabbit","whale","fish","frog","hen","cock","duck","goose","bee","mouse","bird","giraffe
+},
+{"weather","hot","cold","storm","windy","cloudy","sunny","snowy","foggy","ice","sandy","},
+
+{"family","home","child","parent","single","man","women","female","mother","father","brother","sister","wife","ancestor"},
+
+{"friend","brave","capable","careful","clever","cheer","depend"},
+
+{"plant","rose","tree","trunk","root","leaf","fruit","apple","orange","pear","mango","cherry","peach","grape","banana","lemon","peanut"},
+
+{"run","swim","fly","come","turn","shut","sing","dance","put","walk","ride","take","bring","have","leave","move","borrow","lend","keep","grow","wake","sleep","speak","say","talk","watch","see","buy","tell","teach","beat","hit","think","sink","discuss","observe","celebrate","hold","carry","break","cut","grow","water","wash","sell ","smell"}

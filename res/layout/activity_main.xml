@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EDEDE5"
+    tools:context=".AndroidTableLayoutActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#FF9000"
+            android:text="@string/Word2story" >
+        </Button>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="right|center_horizontal"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#EDEDE5"
+                    android:padding="15dp"
+                    android:paddingLeft="10dp" >
+
+                    <TableRow>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:text="H"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/backlog_10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+                    </TableRow>
+                </TableLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="bottom|center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="15dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="bottom|center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp" >
+
+                        <ImageView
+                            android:id="@+id/btnStart"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/btn_description"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:src="@drawable/btn_start" />
+
+                        <ImageView
+                            android:id="@+id/btnExit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/btn_description"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="10dp"
+                            android:src="@drawable/btn_exit" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="bottom|center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="15dp" >
+
+                        <ImageView
+                            android:id="@+id/redundant_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/btn_description"
+                            android:src="@drawable/backlog_blank" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/num_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:text="9"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@string/btn_description"
+                                android:src="@drawable/backlog_blank" />
+
+                            <TextView
+                                android:id="@+id/num_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="13dp"
+                                android:text="0"
+                                android:textSize="44dp" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
